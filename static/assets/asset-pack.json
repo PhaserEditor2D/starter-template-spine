@@ -1,0 +1,23 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/spine/goblins/goblins-pro.json",
+                "type": "spineJson",
+                "key": "goblins"
+            },
+            {
+                "url": "assets/spine/goblins/goblins-pma.atlas",
+                "type": "spineAtlas",
+                "key": "goblins-atlas"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

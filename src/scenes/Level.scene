@@ -1,0 +1,67 @@
+{
+    "id": "b685c081-ee5f-4b67-b583-415922c9e2c4",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "compilerOutputLanguage": "TYPE_SCRIPT",
+        "borderWidth": 1280,
+        "borderHeight": 720
+    },
+    "displayList": [
+        {
+            "type": "Text",
+            "id": "5c228da6-971a-4347-84e8-9f62464ba76d",
+            "label": "text",
+            "x": 640,
+            "y": 576,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Phaser 3 + Spine + Phaser Editor 2D\nWebpack + TypeScript",
+            "align": "center",
+            "fontFamily": "Arial",
+            "fontSize": "3em"
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "78dd1702-89cc-4d5b-915c-3850924e3fb6",
+            "label": "goblin",
+            "components": [
+                "StartAnimationComp"
+            ],
+            "StartAnimationComp.animationName": "walk",
+            "dataKey": "goblins",
+            "atlasKey": "goblins-atlas",
+            "skinName": "goblin",
+            "bpType": 1,
+            "x": 454,
+            "y": 480
+        },
+        {
+            "type": "SpineGameObject",
+            "id": "22248c6b-a162-4500-bf73-82c778bde528",
+            "label": "goblinGirl",
+            "components": [
+                "StartAnimationComp"
+            ],
+            "StartAnimationComp.animationName": "walk",
+            "dataKey": "goblins",
+            "atlasKey": "goblins-atlas",
+            "skinName": "goblingirl",
+            "bpType": 1,
+            "x": 800,
+            "y": 480,
+            "scaleX": -1
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}
