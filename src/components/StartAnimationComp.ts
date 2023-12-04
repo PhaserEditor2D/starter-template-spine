@@ -31,7 +31,7 @@ export default class StartAnimationComp extends UserComponent {
 	/* START-USER-CODE */
 
 	protected awake(): void {
-		
+
 		if (this.animationName) {
 
 			this.gameObject.animationState.setAnimation(0, this.animationName, true);

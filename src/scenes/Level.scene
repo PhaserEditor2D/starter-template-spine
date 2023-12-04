@@ -23,7 +23,25 @@
             "text": "Phaser 3 + Spine + Phaser Editor 2D\nWebpack + TypeScript",
             "align": "center",
             "fontFamily": "Arial",
-            "fontSize": "3em"
+            "fontSize": "3em",
+            "list": [
+                {
+                    "prefabId": "7028a0e2-cd14-44b7-b2a4-68dac16ece00",
+                    "id": "fd4f3e0e-d166-4cce-be6a-61909e10e483",
+                    "label": "onAwakeScript",
+                    "list": [
+                        {
+                            "prefabId": "3d337935-cdca-4937-9126-9f75bc2486de",
+                            "id": "58ae4e4b-8683-483f-b75a-939405901a2e",
+                            "unlock": [
+                                "from"
+                            ],
+                            "label": "moveInSceneActionScript",
+                            "from": "BOTTOM"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "type": "SpineGameObject",
@@ -62,6 +80,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     }
 }

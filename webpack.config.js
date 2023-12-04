@@ -20,6 +20,11 @@ module.exports = {
                     test: /[\\/]node_modules[\\/]@esotericsoftware[\\/]/,
                     name: "spine",
                     chunks: "all",
+                },
+                phasereditor2d: {
+                    test: /[\\/]node_modules[\\/]@phasereditor2d[\\/]/,
+                    name: "phasereditor2d",
+                    chunks: "all",
                 }
             }
         }
